@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "seed repository with basic functionality",
   "scripts": {
+    "preinstall": "node scripts/enforce-yarn.js",
     "commit": "git-cz",
     "enforce:gitflow": "node ./node_modules/.bin/enforce-gitflow-branches"
   },
