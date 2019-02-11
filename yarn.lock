@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@commitlint/cli@^7.5.1":
+"@commitlint/cli@7.5.1":
   version "7.5.1"
   resolved "https://registry.yarnpkg.com/@commitlint/cli/-/cli-7.5.1.tgz#370e465df67325c964c6255f865e914b47405ede"
   integrity sha512-5LTc56dbuK+B83JPriUraORD/opZTqmJg43A0AgZLw01ougEvaE/bGqCEmMcEFapNohHPbdFLbuSRdXlUMWFMQ==
@@ -19,7 +19,7 @@
     resolve-from "4.0.0"
     resolve-global "0.1.0"
 
-"@commitlint/config-conventional@^7.5.0":
+"@commitlint/config-conventional@7.5.0":
   version "7.5.0"
   resolved "https://registry.yarnpkg.com/@commitlint/config-conventional/-/config-conventional-7.5.0.tgz#3afd4e3e34e5c2f6ec6af03e78ae924fed883ce7"
   integrity sha512-odLgBfQ5xntFAmMfAmDY2C4EWhW+cSTbvbsRS7seb55DCa3IaxxSHHC9eXrR+hN/BdUT5vqAxdX1PkR996sq9Q==
@@ -508,6 +508,13 @@ end-of-stream@^1.1.0:
   dependencies:
     once "^1.4.0"
 
+enforce-gitflow-branches@1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/enforce-gitflow-branches/-/enforce-gitflow-branches-1.0.8.tgz#ae0d1f19391bd6a3560587a6f7279cb64ab1e35d"
+  integrity sha512-kL3ys4iOkUtA6QsrVRFM3up3rBcJ7Z/ut8poVjc5blLWzLdV4r82bjnYyJ9Chqu1vWLOYuO+97vDSvylKB07sw==
+  dependencies:
+    node-current-branch "^1.0.1"
+
 error-ex@^1.3.1:
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/error-ex/-/error-ex-1.3.2.tgz#b4ac40648107fdcdcfae242f428bea8a14d4f1bf"
@@ -768,7 +775,7 @@ hosted-git-info@^2.1.4:
   resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.7.1.tgz#97f236977bd6e125408930ff6de3eec6281ec047"
   integrity sha512-7T/BxH19zbcCTa8XkMlbK5lTo1WtgkFi3GvdWEyNuc4Vex7/9Dqbnpsf4JMydcfj9HCg4zUWFTL3Za6lapg5/w==
 
-husky@^1.3.1:
+husky@1.3.1:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/husky/-/husky-1.3.1.tgz#26823e399300388ca2afff11cfa8a86b0033fae0"
   integrity sha512-86U6sVVVf4b5NYSZ0yvv88dRgBSSXXmHaiq5pP4KDj5JVzdwKgBjEtUPOm8hcoytezFwbU+7gotXNhpHdystlg==
@@ -1202,6 +1209,11 @@ nice-try@^1.0.4:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
   integrity sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==
+
+node-current-branch@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/node-current-branch/-/node-current-branch-1.0.1.tgz#a9c1b1f0f32b828d5c915780df2f914bde97b2ab"
+  integrity sha512-i0r6HxdNqCveBbtl0/NYTpEs2oDc9hhdQTTB3xRhzLzs2kWI2AHQngTiPnkuBmFRT5h9DjE9+3RD8mgczlM84Q==
 
 normalize-package-data@^2.3.2, normalize-package-data@^2.3.4:
   version "2.5.0"
